@@ -1,5 +1,9 @@
 {
   "lirc-device": "LG_MKJ39170805_TV",
+  "mewo": {
+    "multicastAddress": "239.255.255.250",
+    "iface": "wlan0"
+  },
   "commands": [
     {
       "name": "magic box",
