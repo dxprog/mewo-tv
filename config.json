@@ -1,0 +1,23 @@
+{
+  "lirc-device": "LG_MKJ39170805_TV",
+  "commands": [
+    {
+      "name": "magic box",
+      "on": [
+        "KEY_POWER"
+      ],
+      "off": [
+        "KEY_POWER"
+      ]
+    },
+    {
+      "name": "computer",
+      "on": [
+        "INPUT",
+        "KEY_V",
+        "KEY_V",
+        "KEY_OK"
+      ]
+    }
+  ]
+}
