@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/dxprog/mewo-tv#readme",
   "dependencies": {
-    "mewo": "^1.1.0",
+    "mewo": "^1.2.0",
     "sleep": "^5.1.1"
   }
 }

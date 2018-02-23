@@ -8,6 +8,7 @@ responder(config.mewo || {}).then(responder => {
     console.log(`Creating device ${command.name}`);
     const tvCommandDevice = new TvCommandDevice({
       upnpDeviceName: command.name,
+      savedPort: command.port,
       responder,
       lircDeviceName,
       buttonConfig: command
